@@ -1,4 +1,4 @@
-'use strict';
+// 'use strict';
 
 var envvar = require('envvar');
 var express = require('express');
@@ -13,5 +13,5 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 app.get('/', function(request, response, next) {
-  console.log("Hey")
+  // console.log("Hey")
 });
